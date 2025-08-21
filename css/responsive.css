@@ -1,0 +1,25 @@
+/* Mobile-first enhancements and overrides */
+
+.nav-tabs .nav-link {
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .results-highlight {
+        grid-template-columns: 1fr !important;
+    }
+    .input-section h2 {
+        font-size: 1.25rem;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+

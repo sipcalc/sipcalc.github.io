@@ -1,0 +1,23 @@
+/* Slider styling generated next to inputs with .has-slider */
+
+.slider-wrapper {
+    margin-top: 0.5rem;
+}
+
+.slider-wrapper input[type="range"] {
+    width: 100%;
+    accent-color: var(--primary-color);
+}
+
+body.dark-mode .slider-wrapper input[type="range"]::-webkit-slider-thumb {
+    border: 2px solid #fff;
+}
+
+.form-floating-note {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+body.dark-mode .form-floating-note {
+    color: #adb5bd;
+}
+
